@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS notes (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title TEXT NOT NULL,
+    content TEXT
+);
